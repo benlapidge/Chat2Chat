@@ -12,7 +12,7 @@
 		B295E844294258350083C295 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B295E843294258350083C295 /* ChatViewController.swift */; };
 		B2AE36E22941156700A48EB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AE36E12941156700A48EB9 /* AppDelegate.swift */; };
 		B2AE36E42941156700A48EB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AE36E32941156700A48EB9 /* SceneDelegate.swift */; };
-		B2AE36E62941156700A48EB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AE36E52941156700A48EB9 /* ViewController.swift */; };
+		B2AE36E62941156700A48EB9 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2AE36E52941156700A48EB9 /* WelcomeViewController.swift */; };
 		B2AE36E92941156700A48EB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2AE36E72941156700A48EB9 /* Main.storyboard */; };
 		B2AE36EB2941156800A48EB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2AE36EA2941156800A48EB9 /* Assets.xcassets */; };
 		B2AE36EE2941156800A48EB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2AE36EC2941156800A48EB9 /* LaunchScreen.storyboard */; };
@@ -28,6 +28,9 @@
 		B2AE370B2941171B00A48EB9 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = B2AE370A2941171B00A48EB9 /* FirebaseMessaging */; };
 		B2AE370D2941171B00A48EB9 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = B2AE370C2941171B00A48EB9 /* FirebaseStorage */; };
 		B2AE370F2941171B00A48EB9 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = B2AE370E2941171B00A48EB9 /* FirebaseStorageCombine-Community */; };
+		B2F6780A294A26B40083DEBF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F67809294A26B40083DEBF /* Constants.swift */; };
+		B2F6780D294A28A40083DEBF /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2F6780B294A28A40083DEBF /* MessageCell.swift */; };
+		B2F6780E294A28A40083DEBF /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B2F6780C294A28A40083DEBF /* MessageCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,12 +40,15 @@
 		B2AE36DE2941156700A48EB9 /* Chat2Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chat2Chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2AE36E12941156700A48EB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2AE36E32941156700A48EB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B2AE36E52941156700A48EB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2AE36E52941156700A48EB9 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		B2AE36E82941156700A48EB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B2AE36EA2941156800A48EB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2AE36ED2941156800A48EB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2AE36EF2941156800A48EB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2AE36F72941162200A48EB9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B2F67809294A26B40083DEBF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B2F6780B294A28A40083DEBF /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		B2F6780C294A28A40083DEBF /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 				B2AE36EA2941156800A48EB9 /* Assets.xcassets */,
 				B2AE36F72941162200A48EB9 /* GoogleService-Info.plist */,
 				B2AE36EF2941156800A48EB9 /* Info.plist */,
+				B2F67809294A26B40083DEBF /* Constants.swift */,
 			);
 			path = Chat2Chat;
 			sourceTree = "<group>";
@@ -110,6 +117,8 @@
 			children = (
 				B2AE36E72941156700A48EB9 /* Main.storyboard */,
 				B2AE36EC2941156800A48EB9 /* LaunchScreen.storyboard */,
+				B2F6780B294A28A40083DEBF /* MessageCell.swift */,
+				B2F6780C294A28A40083DEBF /* MessageCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -117,7 +126,7 @@
 		B2AE36F6294115E100A48EB9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				B2AE36E52941156700A48EB9 /* ViewController.swift */,
+				B2AE36E52941156700A48EB9 /* WelcomeViewController.swift */,
 				B295E83F294255020083C295 /* RegisterViewController.swift */,
 				B295E841294255200083C295 /* LoginViewController.swift */,
 				B295E843294258350083C295 /* ChatViewController.swift */,
@@ -199,6 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2F6780E294A28A40083DEBF /* MessageCell.xib in Resources */,
 				B2AE36EE2941156800A48EB9 /* LaunchScreen.storyboard in Resources */,
 				B2AE36F82941162200A48EB9 /* GoogleService-Info.plist in Resources */,
 				B2AE36EB2941156800A48EB9 /* Assets.xcassets in Resources */,
@@ -213,10 +223,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2AE36E62941156700A48EB9 /* ViewController.swift in Sources */,
+				B2AE36E62941156700A48EB9 /* WelcomeViewController.swift in Sources */,
+				B2F6780D294A28A40083DEBF /* MessageCell.swift in Sources */,
 				B2AE36E22941156700A48EB9 /* AppDelegate.swift in Sources */,
 				B2AE36E42941156700A48EB9 /* SceneDelegate.swift in Sources */,
 				B295E842294255200083C295 /* LoginViewController.swift in Sources */,
+				B2F6780A294A26B40083DEBF /* Constants.swift in Sources */,
 				B295E844294258350083C295 /* ChatViewController.swift in Sources */,
 				B295E840294255020083C295 /* RegisterViewController.swift in Sources */,
 			);
